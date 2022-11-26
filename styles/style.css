@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+#container{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    max-width: 300px;
+    padding: 20px;
+    background-color: gray;
+    border-radius: 10px;
+    color: white;
+}
+
+
+input{
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+
+button{
+    margin-top: 10px;
+    padding: 2px;
+    width: 80px;
+    border-radius: 10px;
+    border-color: whitesmoke;
+}
+
+#results{
+    margin-top: 16px;
+    color: white;
+    
+}
+
+#results>p{
+    margin-bottom: 16px;
+}
